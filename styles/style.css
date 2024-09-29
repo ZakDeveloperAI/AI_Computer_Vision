@@ -90,6 +90,13 @@ nav>img{
     border-radius: 300px;
     padding: 10px;
     border: solid 0.2px var(--third);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container2>img:hover{
+    transform: scale(1.05);
+    background-color: #233554;
 }
 
 .container{
@@ -316,9 +323,10 @@ footer{
 
 
 .contact-container{
+    text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 200px auto;
+    margin: 150px auto;
     width: 50%;
     color: white;
     gap: 20px;
@@ -399,6 +407,10 @@ textarea{
     cursor: pointer;
        height: 50px;
        width: 40px;
+   }
+
+   .close-nav:hover{
+       transform: scale(1.1);
    }
 
     nav{
