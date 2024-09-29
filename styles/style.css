@@ -343,7 +343,16 @@ footer{
     transform: scale(1.02);
 }
 
+.contact-container>p{
+    color: var(--sec);
+}
+
+.contact-container>h1,.contact-container>p{
+    font-family: roboto;
+}
+
 .contact-container>input, textarea{
+    font-family: roboto;
    margin-left: auto;
    margin-right: auto;
     width: 60%;
@@ -361,7 +370,7 @@ footer{
     color: var(--third);
     padding: 15px 20%;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
     transition: all 0.3s ease-in-out;
     margin: 1%;
     font-size: 100%;
